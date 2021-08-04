@@ -1,5 +1,5 @@
 const disc=require("discord.js");
-const cli=new Discord.Client();
+const cli=new disc.Client();
 
 cli.on('ready',()=>{
 

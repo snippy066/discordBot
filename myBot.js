@@ -13,10 +13,9 @@ cli.on('ready',()=>{
         Console.log(guild.name);
 
         guild.channels.forEach((channel)=>{
-           Console.log(` - ${channel.id}`);
+           Console.log(`${channel.id}`);
         })
-    })
-       
+    }) 
 })
 
 cli.login("ODcwOTczMzcwNzgxNTQ0NDU4.YQUjKQ.NkGw0a7hT4UpjS4so0e_ARQmnUs");
